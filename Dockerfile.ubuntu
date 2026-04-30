@@ -20,7 +20,7 @@ COPY .editorconfig .editorconfig
 
 RUN dotnet restore main/GarnetServer/GarnetServer.csproj -a $TARGETARCH
 
-# Copy everthing else and publish app
+# Copy everthing else and publish appe
 COPY Garnet.snk Garnet.snk
 COPY libs/ libs/
 COPY main/ main/
